@@ -105,6 +105,13 @@
             background-color: #5a3600;
         }
 
+        .title-image {
+            width: 50%;
+            max-width: 300px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
         @media (max-width: 600px) {
             .card {
                 width: 250px;
@@ -120,11 +127,15 @@
                 gap: 20px;
                 padding: 20px;
             }
+
+            .title-image {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Carp's Treasure Hunt</h1>
+    <img src="Logo.png" class="title-image">
     <div class="container">
         <!-- 6 Cards -->
         <div class="card" id="card1">
